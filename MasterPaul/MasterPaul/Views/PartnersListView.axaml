@@ -1,0 +1,44 @@
+<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+             x:Class="MasterPaul.PartnersListView"
+			 xmlns:vm="using:MasterPaul.ViewModels"
+			 x:DataType="vm:PartnersListVM">
+
+	<Grid Margin="20" RowDefinitions="Auto, *">
+		<TextBlock Text="Список партнеров" HorizontalAlignment="Center" FontWeight="Bold" FontSize="20" Grid.Row="0" Margin="0 0 0 20"/>
+		<ScrollViewer Grid.Row="1">
+			<ListBox ItemsSource="{Binding Partners}">
+				<ListBox.ItemTemplate>
+					<DataTemplate>
+						<Border BorderThickness="1" BorderBrush="Black">
+							<Grid ColumnDefinitions="8*, Auto" Margin="10">
+								<StackPanel Grid.Column="0">
+									<StackPanel Orientation="Horizontal">
+										<TextBlock>
+											<TextBlock.Text>
+												<MultiBinding StringFormat="{}{0} | {1}">
+													<Binding Path="IdTypeCompanyNavigation.TypeName"/>
+													<Binding Path="NameCompany"/>
+												</MultiBinding>
+											</TextBlock.Text>
+										</TextBlock>
+									</StackPanel>
+									<TextBlock Text="{Binding DirectorFullName}"/>
+									<TextBlock Text="{Binding ContactPhone, StringFormat='+7 {0}'}}"/>
+									<TextBlock Text="{Binding Rating, StringFormat='Рейтинг: {0}'}"/>
+								</StackPanel>
+								<StackPanel Grid.Column="1">
+									<TextBlock Text="{Binding Sale, StringFormat='{}{0}%'}"/>
+								</StackPanel>
+							</Grid>
+						</Border>
+					</DataTemplate>
+				</ListBox.ItemTemplate>
+			</ListBox>
+		</ScrollViewer>
+	</Grid>
+	
+</UserControl>

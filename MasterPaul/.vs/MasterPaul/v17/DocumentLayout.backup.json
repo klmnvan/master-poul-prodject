@@ -1,0 +1,128 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\\u043A\u043B\u0438\u043C\u044B\u0447\u0435\u0432\u0430\u0430\u0430\\source\\repos\\MasterPaul\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{FEDC74F1-2180-48DC-A239-C21C2D6726B9}|MasterPaul\\MasterPaul.csproj|c:\\users\\\u043A\u043B\u0438\u043C\u044B\u0447\u0435\u0432\u0430\u0430\u0430\\source\\repos\\masterpaul\\masterpaul\\viewmodels\\mainwindowviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FEDC74F1-2180-48DC-A239-C21C2D6726B9}|MasterPaul\\MasterPaul.csproj|solutionrelative:masterpaul\\viewmodels\\mainwindowviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEDC74F1-2180-48DC-A239-C21C2D6726B9}|MasterPaul\\MasterPaul.csproj|c:\\users\\\u043A\u043B\u0438\u043C\u044B\u0447\u0435\u0432\u0430\u0430\u0430\\source\\repos\\masterpaul\\masterpaul\\views\\mainwindow.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
+      "RelativeMoniker": "D:0:0:{FEDC74F1-2180-48DC-A239-C21C2D6726B9}|MasterPaul\\MasterPaul.csproj|solutionrelative:masterpaul\\views\\mainwindow.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEDC74F1-2180-48DC-A239-C21C2D6726B9}|MasterPaul\\MasterPaul.csproj|c:\\users\\\u043A\u043B\u0438\u043C\u044B\u0447\u0435\u0432\u0430\u0430\u0430\\source\\repos\\masterpaul\\masterpaul\\views\\partnerslistview.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
+      "RelativeMoniker": "D:0:0:{FEDC74F1-2180-48DC-A239-C21C2D6726B9}|MasterPaul\\MasterPaul.csproj|solutionrelative:masterpaul\\views\\partnerslistview.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEDC74F1-2180-48DC-A239-C21C2D6726B9}|MasterPaul\\MasterPaul.csproj|c:\\users\\\u043A\u043B\u0438\u043C\u044B\u0447\u0435\u0432\u0430\u0430\u0430\\source\\repos\\masterpaul\\masterpaul\\viewmodels\\partnerslistvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FEDC74F1-2180-48DC-A239-C21C2D6726B9}|MasterPaul\\MasterPaul.csproj|solutionrelative:masterpaul\\viewmodels\\partnerslistvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEDC74F1-2180-48DC-A239-C21C2D6726B9}|MasterPaul\\MasterPaul.csproj|c:\\users\\\u043A\u043B\u0438\u043C\u044B\u0447\u0435\u0432\u0430\u0430\u0430\\source\\repos\\masterpaul\\masterpaul\\views\\partnerslistview.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FEDC74F1-2180-48DC-A239-C21C2D6726B9}|MasterPaul\\MasterPaul.csproj|solutionrelative:masterpaul\\views\\partnerslistview.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEDC74F1-2180-48DC-A239-C21C2D6726B9}|MasterPaul\\MasterPaul.csproj|c:\\users\\\u043A\u043B\u0438\u043C\u044B\u0447\u0435\u0432\u0430\u0430\u0430\\source\\repos\\masterpaul\\masterpaul\\viewmodels\\viewmodelbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FEDC74F1-2180-48DC-A239-C21C2D6726B9}|MasterPaul\\MasterPaul.csproj|solutionrelative:masterpaul\\viewmodels\\viewmodelbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PartnersListVM.cs",
+              "DocumentMoniker": "C:\\Users\\\u043A\u043B\u0438\u043C\u044B\u0447\u0435\u0432\u0430\u0430\u0430\\source\\repos\\MasterPaul\\MasterPaul\\ViewModels\\PartnersListVM.cs",
+              "RelativeDocumentMoniker": "MasterPaul\\ViewModels\\PartnersListVM.cs",
+              "ToolTip": "C:\\Users\\\u043A\u043B\u0438\u043C\u044B\u0447\u0435\u0432\u0430\u0430\u0430\\source\\repos\\MasterPaul\\MasterPaul\\ViewModels\\PartnersListVM.cs",
+              "RelativeToolTip": "MasterPaul\\ViewModels\\PartnersListVM.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-01T13:16:02.973Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ViewModelBase.cs",
+              "DocumentMoniker": "C:\\Users\\\u043A\u043B\u0438\u043C\u044B\u0447\u0435\u0432\u0430\u0430\u0430\\source\\repos\\MasterPaul\\MasterPaul\\ViewModels\\ViewModelBase.cs",
+              "RelativeDocumentMoniker": "MasterPaul\\ViewModels\\ViewModelBase.cs",
+              "ToolTip": "C:\\Users\\\u043A\u043B\u0438\u043C\u044B\u0447\u0435\u0432\u0430\u0430\u0430\\source\\repos\\MasterPaul\\MasterPaul\\ViewModels\\ViewModelBase.cs",
+              "RelativeToolTip": "MasterPaul\\ViewModels\\ViewModelBase.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-01T13:15:55.559Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PartnersListView.axaml",
+              "DocumentMoniker": "C:\\Users\\\u043A\u043B\u0438\u043C\u044B\u0447\u0435\u0432\u0430\u0430\u0430\\source\\repos\\MasterPaul\\MasterPaul\\Views\\PartnersListView.axaml",
+              "RelativeDocumentMoniker": "MasterPaul\\Views\\PartnersListView.axaml",
+              "ToolTip": "C:\\Users\\\u043A\u043B\u0438\u043C\u044B\u0447\u0435\u0432\u0430\u0430\u0430\\source\\repos\\MasterPaul\\MasterPaul\\Views\\PartnersListView.axaml",
+              "RelativeToolTip": "MasterPaul\\Views\\PartnersListView.axaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-01T13:14:51.571Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PartnersListView.axaml.cs",
+              "DocumentMoniker": "C:\\Users\\\u043A\u043B\u0438\u043C\u044B\u0447\u0435\u0432\u0430\u0430\u0430\\source\\repos\\MasterPaul\\MasterPaul\\Views\\PartnersListView.axaml.cs",
+              "RelativeDocumentMoniker": "MasterPaul\\Views\\PartnersListView.axaml.cs",
+              "ToolTip": "C:\\Users\\\u043A\u043B\u0438\u043C\u044B\u0447\u0435\u0432\u0430\u0430\u0430\\source\\repos\\MasterPaul\\MasterPaul\\Views\\PartnersListView.axaml.cs",
+              "RelativeToolTip": "MasterPaul\\Views\\PartnersListView.axaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-01T13:14:51.487Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.axaml",
+              "DocumentMoniker": "C:\\Users\\\u043A\u043B\u0438\u043C\u044B\u0447\u0435\u0432\u0430\u0430\u0430\\source\\repos\\MasterPaul\\MasterPaul\\Views\\MainWindow.axaml",
+              "RelativeDocumentMoniker": "MasterPaul\\Views\\MainWindow.axaml",
+              "ToolTip": "C:\\Users\\\u043A\u043B\u0438\u043C\u044B\u0447\u0435\u0432\u0430\u0430\u0430\\source\\repos\\MasterPaul\\MasterPaul\\Views\\MainWindow.axaml",
+              "RelativeToolTip": "MasterPaul\\Views\\MainWindow.axaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-01T12:56:28.633Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindowViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\\u043A\u043B\u0438\u043C\u044B\u0447\u0435\u0432\u0430\u0430\u0430\\source\\repos\\MasterPaul\\MasterPaul\\ViewModels\\MainWindowViewModel.cs",
+              "RelativeDocumentMoniker": "MasterPaul\\ViewModels\\MainWindowViewModel.cs",
+              "ToolTip": "C:\\Users\\\u043A\u043B\u0438\u043C\u044B\u0447\u0435\u0432\u0430\u0430\u0430\\source\\repos\\MasterPaul\\MasterPaul\\ViewModels\\MainWindowViewModel.cs*",
+              "RelativeToolTip": "MasterPaul\\ViewModels\\MainWindowViewModel.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-01T12:56:26.156Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
