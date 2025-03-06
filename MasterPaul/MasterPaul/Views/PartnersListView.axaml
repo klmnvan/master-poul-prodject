@@ -8,14 +8,20 @@
 			 x:DataType="vm:PartnersListVM">
 
 	<Grid Margin="20" RowDefinitions="Auto, *">
-		<TextBlock Text="Список партнеров" HorizontalAlignment="Center" FontWeight="Bold" FontSize="20" Grid.Row="0" Margin="0 0 0 20"/>
+		<StackPanel Grid.Row="0">
+			<TextBlock Text="Список партнеров" HorizontalAlignment="Center" FontWeight="Bold" FontSize="20" Margin="0 0 0 20"/>
+			<StackPanel Orientation="Horizontal">
+				<Button Content="Добавить партнёра" Command="{Binding CreatePartnerCommand}" Margin="0 0 0 10"/>
+				<Button Content="Расчёт количества материала" Command="{Binding OpenCalculationCommand}" Margin="10 0 0 10"/>
+			</StackPanel>
+		</StackPanel>
 		<ScrollViewer Grid.Row="1">
 			<ListBox ItemsSource="{Binding Partners}">
 				<ListBox.ItemTemplate>
 					<DataTemplate>
-						<Border BorderThickness="1" BorderBrush="Black">
-							<Grid ColumnDefinitions="8*, Auto" Margin="10">
-								<StackPanel Grid.Column="0">
+						<Border BorderThickness="1" BorderBrush="Black" Background="#F4E8D3" CornerRadius="5">
+							<Grid ColumnDefinitions="8*, Auto" RowDefinitions="Auto, Auto" Margin="10">
+								<StackPanel Grid.Column="0" Grid.Row="0">
 									<StackPanel Orientation="Horizontal">
 										<TextBlock>
 											<TextBlock.Text>
@@ -30,8 +36,23 @@
 									<TextBlock Text="{Binding ContactPhone, StringFormat='+7 {0}'}}"/>
 									<TextBlock Text="{Binding Rating, StringFormat='Рейтинг: {0}'}"/>
 								</StackPanel>
-								<StackPanel Grid.Column="1">
+								<StackPanel Grid.Column="1" Grid.Row="0" VerticalAlignment="Stretch">
 									<TextBlock Text="{Binding Sale, StringFormat='{}{0}%'}"/>
+								</StackPanel>
+								<StackPanel Orientation="Horizontal" VerticalAlignment="Bottom"
+											Grid.Column="0" Grid.ColumnSpan="2" Grid.Row="1"
+											HorizontalAlignment="Right">
+									<Button Content="Удалить" Background="Brown"
+										Command="{Binding $parent[UserControl].((vm:PartnersListVM)DataContext).DeletePartnerCommand}"
+										CommandParameter="{Binding}"/>
+									<Panel Width="10"/>
+									<Button Content="Редактировать"
+										Command="{Binding $parent[UserControl].((vm:PartnersListVM)DataContext).EditPartnerCommand}"
+										CommandParameter="{Binding}"/>
+									<Panel Width="10"/>
+									<Button Content="История" Background="LightBlue"
+										Command="{Binding $parent[UserControl].((vm:PartnersListVM)DataContext).OpenHistoryCommand}"
+										CommandParameter="{Binding}"/>
 								</StackPanel>
 							</Grid>
 						</Border>

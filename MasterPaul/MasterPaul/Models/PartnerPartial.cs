@@ -9,14 +9,13 @@ namespace MasterPaul.Models
 {
     public partial class Partner
     {
-        //Общее количество реализованной партнером продукции
-        int quantityProductsSold = 0;
 
         //Скидка
         public int Sale 
         {
             get
             {
+                int? quantityProductsSold = PartnerProducts.Sum(it => it.CountProduct);
                 if (quantityProductsSold < 10000 && quantityProductsSold > 0) return 0;
                 if (quantityProductsSold >= 10000 && quantityProductsSold < 50000) return 5;
                 if (quantityProductsSold >= 50000 && quantityProductsSold < 300000) return 10;
@@ -24,8 +23,5 @@ namespace MasterPaul.Models
                 return 0;
             }
         }
-
-        [NotMapped]
-        public int QuantityProductsSold { get => quantityProductsSold; set => quantityProductsSold = value; }
     }
 }

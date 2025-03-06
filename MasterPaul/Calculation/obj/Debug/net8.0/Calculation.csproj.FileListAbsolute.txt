@@ -1,0 +1,11 @@
+D:\VS prodjects\Мухина\MasterPaul\Calculation\bin\Debug\net8.0\Calculation.deps.json
+D:\VS prodjects\Мухина\MasterPaul\Calculation\bin\Debug\net8.0\Calculation.dll
+D:\VS prodjects\Мухина\MasterPaul\Calculation\bin\Debug\net8.0\Calculation.pdb
+D:\VS prodjects\Мухина\MasterPaul\Calculation\obj\Debug\net8.0\Calculation.GeneratedMSBuildEditorConfig.editorconfig
+D:\VS prodjects\Мухина\MasterPaul\Calculation\obj\Debug\net8.0\Calculation.AssemblyInfoInputs.cache
+D:\VS prodjects\Мухина\MasterPaul\Calculation\obj\Debug\net8.0\Calculation.AssemblyInfo.cs
+D:\VS prodjects\Мухина\MasterPaul\Calculation\obj\Debug\net8.0\Calculation.csproj.CoreCompileInputs.cache
+D:\VS prodjects\Мухина\MasterPaul\Calculation\obj\Debug\net8.0\Calculation.dll
+D:\VS prodjects\Мухина\MasterPaul\Calculation\obj\Debug\net8.0\refint\Calculation.dll
+D:\VS prodjects\Мухина\MasterPaul\Calculation\obj\Debug\net8.0\Calculation.pdb
+D:\VS prodjects\Мухина\MasterPaul\Calculation\obj\Debug\net8.0\ref\Calculation.dll

@@ -1,0 +1,59 @@
+<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+			 xmlns:vm="using:MasterPaul.ViewModels"
+			 x:DataType="vm:PartnerEditorVM"
+             x:Class="MasterPaul.PartnerEditorView">
+
+	<Grid RowDefinitions="Auto, *" Margin="20">
+
+		<Panel Grid.Row="0">
+			<TextBlock Text="{Binding NameScreen}" HorizontalAlignment="Center" FontWeight="Bold" FontSize="20"  Margin="80 0 0 20" VerticalAlignment="Center"/>
+			<Button Content="Назад" Command="{Binding GoBackCommand}"/>
+		</Panel>
+		
+		<ScrollViewer Grid.Row="1">
+			<StackPanel>
+				<TextBlock Text="Наименование" FontWeight="SemiBold"/>
+				<Panel Height="5"/>
+				<TextBox Text="{Binding Partner.NameCompany}"/>
+				<Panel Height="10"/>
+				<TextBlock Text="Тип партнера" FontWeight="SemiBold"/>
+				<Panel Height="5"/>
+				<ComboBox ItemsSource="{Binding PartnerTypes}" SelectedItem="{Binding SelPartnerType}">
+					<ComboBox.ItemTemplate>
+						<DataTemplate>
+							<TextBlock Text="{Binding TypeName}"/>
+						</DataTemplate>
+					</ComboBox.ItemTemplate>
+				</ComboBox>
+				<Panel Height="10"/>
+				<TextBlock Text="Рейтинг" FontWeight="SemiBold"/>
+				<Panel Height="5"/>
+				<NumericUpDown Value="{Binding Partner.Rating}" Minimum="0" Maximum="10" ShowButtonSpinner="False" Increment="1" FormatString="0"/>
+				<Panel Height="10"/>
+				<TextBlock Text="Адрес" FontWeight="SemiBold"/>
+				<Panel Height="5"/>
+				<TextBox Text="{Binding Partner.LegalAddress}"/>
+				<Panel Height="10"/>
+				<TextBlock Text="ФИО директора" FontWeight="SemiBold"/>
+				<Panel Height="5"/>
+				<TextBox Text="{Binding Partner.DirectorFullName}"/>
+				<Panel Height="10"/>
+				<TextBlock Text="Телефон компании" FontWeight="SemiBold"/>
+				<Panel Height="5"/>
+				<TextBox Text="{Binding Partner.ContactPhone}" Watermark="999 000 00 00"/>
+				<Panel Height="10"/>
+				<TextBlock Text="Email компании" FontWeight="SemiBold"/>
+				<Panel Height="5"/>
+				<TextBox Text="{Binding Partner.ContactEmail}"/>
+				<Panel Height="15"/>
+				<Button Content="{Binding NameButton}" Command="{Binding SaveCommand}" HorizontalAlignment="Center"/>
+			</StackPanel>
+		</ScrollViewer>
+		
+	</Grid>
+	
+</UserControl>

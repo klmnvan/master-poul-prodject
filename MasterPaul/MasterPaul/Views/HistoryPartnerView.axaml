@@ -1,0 +1,56 @@
+<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+			 xmlns:vm="using:MasterPaul.ViewModels"
+			 x:DataType="vm:HistoryPartnerVM"
+             x:Class="MasterPaul.HistoryPartnerView">
+
+	<Grid RowDefinitions="Auto, *" Margin="20">
+
+		<Panel Grid.Row="0">
+			<TextBlock Text="{Binding NameScreen}" HorizontalAlignment="Center" FontWeight="Bold" FontSize="20"  Margin="80 0 0 20"/>
+			<Button Content="Назад" Command="{Binding GoBackCommand}"/>
+		</Panel>
+
+		<ScrollViewer Grid.Row="1">
+
+			<ListBox ItemsSource="{Binding ListPartProds}">
+				<ListBox.ItemTemplate>
+					<DataTemplate>
+						<Border BorderThickness="1" BorderBrush="Black" Background="#F4E8D3" CornerRadius="5">
+							<Grid Margin="10" ColumnDefinitions="*, Auto">
+
+								<StackPanel Grid.Column="0">
+
+									<TextBlock>
+										<TextBlock.Inlines>
+											<Run Text="Продукция:" FontWeight="Bold"/>
+											<Run Text="{Binding IdProductNavigation.ProductName}"/>
+										</TextBlock.Inlines>
+									</TextBlock>
+
+									<TextBlock>
+										<TextBlock.Inlines>
+											<Run Text="Дата реализации:" FontWeight="Bold"/>
+											<Run Text="{Binding DateOfSale}"/>
+										</TextBlock.Inlines>
+									</TextBlock>
+									
+								</StackPanel>
+
+								<TextBlock Grid.Column="1" Text="{Binding CountProduct, StringFormat='{}{0} шт.'}"/>
+
+							</Grid>
+						</Border>
+					</DataTemplate>
+				</ListBox.ItemTemplate>
+			</ListBox>
+			
+		</ScrollViewer>
+		
+	</Grid>
+	
+	
+</UserControl>

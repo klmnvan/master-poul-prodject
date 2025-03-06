@@ -336,3 +336,7 @@ D:\VS prodjects\Мухина\MasterPaul\MasterPaul\obj\Debug\net8.0\refint\Avalo
 D:\VS prodjects\Мухина\MasterPaul\MasterPaul\obj\Debug\net8.0\MasterPaul.csproj.Up2Date
 D:\VS prodjects\Мухина\MasterPaul\MasterPaul\obj\Debug\net8.0\MasterPaul.genruntimeconfig.cache
 D:\VS prodjects\Мухина\MasterPaul\MasterPaul\obj\Debug\net8.0\ref\MasterPaul.dll
+D:\VS prodjects\Мухина\MasterPaul\MasterPaul\bin\Debug\net8.0\DialogHost.Avalonia.dll
+D:\VS prodjects\Мухина\MasterPaul\MasterPaul\bin\Debug\net8.0\MsBox.Avalonia.dll
+D:\VS prodjects\Мухина\MasterPaul\MasterPaul\bin\Debug\net8.0\Calculation.dll
+D:\VS prodjects\Мухина\MasterPaul\MasterPaul\bin\Debug\net8.0\Calculation.pdb
