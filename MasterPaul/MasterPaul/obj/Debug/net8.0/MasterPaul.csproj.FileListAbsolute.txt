@@ -340,3 +340,4 @@ D:\VS prodjects\Мухина\MasterPaul\MasterPaul\bin\Debug\net8.0\DialogHost.A
 D:\VS prodjects\Мухина\MasterPaul\MasterPaul\bin\Debug\net8.0\MsBox.Avalonia.dll
 D:\VS prodjects\Мухина\MasterPaul\MasterPaul\bin\Debug\net8.0\Calculation.dll
 D:\VS prodjects\Мухина\MasterPaul\MasterPaul\bin\Debug\net8.0\Calculation.pdb
+D:\VS prodjects\Мухина\MasterPaul\MasterPaul\obj\Debug\net8.0\MasterPaul.sourcelink.json

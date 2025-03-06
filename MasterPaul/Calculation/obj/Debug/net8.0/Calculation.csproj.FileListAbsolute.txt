@@ -9,3 +9,4 @@ D:\VS prodjects\Мухина\MasterPaul\Calculation\obj\Debug\net8.0\Calculation
 D:\VS prodjects\Мухина\MasterPaul\Calculation\obj\Debug\net8.0\refint\Calculation.dll
 D:\VS prodjects\Мухина\MasterPaul\Calculation\obj\Debug\net8.0\Calculation.pdb
 D:\VS prodjects\Мухина\MasterPaul\Calculation\obj\Debug\net8.0\ref\Calculation.dll
+D:\VS prodjects\Мухина\MasterPaul\Calculation\obj\Debug\net8.0\Calculation.sourcelink.json

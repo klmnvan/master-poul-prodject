@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "D:\\VS prodjects\\\u041C\u0443\u0445\u0438\u043D\u0430\\MasterPaul\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{77CE7F9D-8FC0-4986-8793-77E8E439404F}|Tests\\Tests.csproj|d:\\vs prodjects\\\u043C\u0443\u0445\u0438\u043D\u0430\\masterpaul\\tests\\unittests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77CE7F9D-8FC0-4986-8793-77E8E439404F}|Tests\\Tests.csproj|solutionrelative:tests\\unittests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{2612B77B-D06E-4E89-B74F-61B1B5339E8F}|Calculation\\Calculation.csproj|d:\\vs prodjects\\\u043C\u0443\u0445\u0438\u043D\u0430\\masterpaul\\calculation\\calculationclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2612B77B-D06E-4E89-B74F-61B1B5339E8F}|Calculation\\Calculation.csproj|solutionrelative:calculation\\calculationclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -39,19 +43,32 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "UnitTests.cs",
+              "DocumentMoniker": "D:\\VS prodjects\\\u041C\u0443\u0445\u0438\u043D\u0430\\MasterPaul\\Tests\\UnitTests.cs",
+              "RelativeDocumentMoniker": "Tests\\UnitTests.cs",
+              "ToolTip": "D:\\VS prodjects\\\u041C\u0443\u0445\u0438\u043D\u0430\\MasterPaul\\Tests\\UnitTests.cs",
+              "RelativeToolTip": "Tests\\UnitTests.cs",
+              "ViewState": "AQIAAHEAAAAAAAAAAAAswH8AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-06T23:09:01.097Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "CalculationClass.cs",
               "DocumentMoniker": "D:\\VS prodjects\\\u041C\u0443\u0445\u0438\u043D\u0430\\MasterPaul\\Calculation\\CalculationClass.cs",
               "RelativeDocumentMoniker": "Calculation\\CalculationClass.cs",
               "ToolTip": "D:\\VS prodjects\\\u041C\u0443\u0445\u0438\u043D\u0430\\MasterPaul\\Calculation\\CalculationClass.cs",
               "RelativeToolTip": "Calculation\\CalculationClass.cs",
-              "ViewState": "AQIAAAgAAAAAAAAAAAAQwBkAAAAJAAAA",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAQwBgAAAAoAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-05T14:28:11.274Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "CalculationMaterialView.axaml.cs",
               "DocumentMoniker": "D:\\VS prodjects\\\u041C\u0443\u0445\u0438\u043D\u0430\\MasterPaul\\MasterPaul\\Views\\CalculationMaterialView.axaml.cs",
               "RelativeDocumentMoniker": "MasterPaul\\Views\\CalculationMaterialView.axaml.cs",
@@ -63,7 +80,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "MasterPaul.csproj",
               "DocumentMoniker": "D:\\VS prodjects\\\u041C\u0443\u0445\u0438\u043D\u0430\\MasterPaul\\MasterPaul\\MasterPaul.csproj",
               "RelativeDocumentMoniker": "MasterPaul\\MasterPaul.csproj",
@@ -75,7 +92,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "CalculationMaterialView.axaml",
               "DocumentMoniker": "D:\\VS prodjects\\\u041C\u0443\u0445\u0438\u043D\u0430\\MasterPaul\\MasterPaul\\Views\\CalculationMaterialView.axaml",
               "RelativeDocumentMoniker": "MasterPaul\\Views\\CalculationMaterialView.axaml",
@@ -86,7 +103,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "CalculationMaterialVM.cs",
               "DocumentMoniker": "D:\\VS prodjects\\\u041C\u0443\u0445\u0438\u043D\u0430\\MasterPaul\\MasterPaul\\ViewModels\\CalculationMaterialVM.cs",
               "RelativeDocumentMoniker": "MasterPaul\\ViewModels\\CalculationMaterialVM.cs",

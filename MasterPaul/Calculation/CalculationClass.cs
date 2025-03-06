@@ -22,7 +22,7 @@
         //Конструктор для вычислений по значениям типов, известных на момент создания библиотеки (и для тестирования)
         public CalculationClass() { }
 
-        public int GetQuantityMaterial(int typeProduct, int typeMaterial, int quantityProduct, double weight, double height)
+        public int GetQuantityForProduct(int typeProduct, int typeMaterial, int quantityProduct, double weight, double height)
         {
             int quantityMaterial = 0;
             double percent_marriage = 0, ratio = 0;

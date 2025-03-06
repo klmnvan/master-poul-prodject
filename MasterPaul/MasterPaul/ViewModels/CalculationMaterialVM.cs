@@ -42,7 +42,7 @@ namespace MasterPaul.ViewModels
         [RelayCommand]
         public void Calculate()
         {
-            Result = _calculation.GetQuantityMaterial((int)Product.IdProductType, MaterialType.IdType, QuantityProduct, (double)Product.Height, (double)Product.Width);
+            Result = _calculation.GetQuantityForProduct((int)Product.IdProductType, MaterialType.IdType, QuantityProduct, (double)Product.Height, (double)Product.Width);
         }
     }
 }
