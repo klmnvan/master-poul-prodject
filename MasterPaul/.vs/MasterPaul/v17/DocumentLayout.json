@@ -15,6 +15,14 @@
       "RelativeMoniker": "D:0:0:{FEDC74F1-2180-48DC-A239-C21C2D6726B9}|MasterPaul\\MasterPaul.csproj|solutionrelative:masterpaul\\viewmodels\\calculationmaterialvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{FEDC74F1-2180-48DC-A239-C21C2D6726B9}|MasterPaul\\MasterPaul.csproj|d:\\vs prodjects\\\u043C\u0443\u0445\u0438\u043D\u0430\\masterpaul\\masterpaul\\views\\partnereditorview.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
+      "RelativeMoniker": "D:0:0:{FEDC74F1-2180-48DC-A239-C21C2D6726B9}|MasterPaul\\MasterPaul.csproj|solutionrelative:masterpaul\\views\\partnereditorview.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEDC74F1-2180-48DC-A239-C21C2D6726B9}|MasterPaul\\MasterPaul.csproj|d:\\vs prodjects\\\u043C\u0443\u0445\u0438\u043D\u0430\\masterpaul\\masterpaul\\views\\partnerslistview.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
+      "RelativeMoniker": "D:0:0:{FEDC74F1-2180-48DC-A239-C21C2D6726B9}|MasterPaul\\MasterPaul.csproj|solutionrelative:masterpaul\\views\\partnerslistview.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{FEDC74F1-2180-48DC-A239-C21C2D6726B9}|MasterPaul\\MasterPaul.csproj|d:\\vs prodjects\\\u043C\u0443\u0445\u0438\u043D\u0430\\masterpaul\\masterpaul\\views\\calculationmaterialview.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
       "RelativeMoniker": "D:0:0:{FEDC74F1-2180-48DC-A239-C21C2D6726B9}|MasterPaul\\MasterPaul.csproj|solutionrelative:masterpaul\\views\\calculationmaterialview.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
     },
@@ -34,11 +42,35 @@
       "DocumentGroups": [
         {
           "DockedWidth": 338,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PartnerEditorView.axaml",
+              "DocumentMoniker": "D:\\VS prodjects\\\u041C\u0443\u0445\u0438\u043D\u0430\\MasterPaul\\MasterPaul\\Views\\PartnerEditorView.axaml",
+              "RelativeDocumentMoniker": "MasterPaul\\Views\\PartnerEditorView.axaml",
+              "ToolTip": "D:\\VS prodjects\\\u041C\u0443\u0445\u0438\u043D\u0430\\MasterPaul\\MasterPaul\\Views\\PartnerEditorView.axaml",
+              "RelativeToolTip": "MasterPaul\\Views\\PartnerEditorView.axaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-07T00:12:41.565Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PartnersListView.axaml",
+              "DocumentMoniker": "D:\\VS prodjects\\\u041C\u0443\u0445\u0438\u043D\u0430\\MasterPaul\\MasterPaul\\Views\\PartnersListView.axaml",
+              "RelativeDocumentMoniker": "MasterPaul\\Views\\PartnersListView.axaml",
+              "ToolTip": "D:\\VS prodjects\\\u041C\u0443\u0445\u0438\u043D\u0430\\MasterPaul\\MasterPaul\\Views\\PartnersListView.axaml",
+              "RelativeToolTip": "MasterPaul\\Views\\PartnersListView.axaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-07T00:11:18.291Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -48,7 +80,7 @@
               "RelativeDocumentMoniker": "Tests\\UnitTests.cs",
               "ToolTip": "D:\\VS prodjects\\\u041C\u0443\u0445\u0438\u043D\u0430\\MasterPaul\\Tests\\UnitTests.cs",
               "RelativeToolTip": "Tests\\UnitTests.cs",
-              "ViewState": "AQIAAHEAAAAAAAAAAAAswH8AAAAJAAAA",
+              "ViewState": "AQIAAHwAAAAAAAAAAAAUwAcAAAAUAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-06T23:09:01.097Z",
               "EditorCaption": ""
@@ -61,14 +93,14 @@
               "RelativeDocumentMoniker": "Calculation\\CalculationClass.cs",
               "ToolTip": "D:\\VS prodjects\\\u041C\u0443\u0445\u0438\u043D\u0430\\MasterPaul\\Calculation\\CalculationClass.cs",
               "RelativeToolTip": "Calculation\\CalculationClass.cs",
-              "ViewState": "AQIAAAgAAAAAAAAAAAAQwBgAAAAoAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAEAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-05T14:28:11.274Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "CalculationMaterialView.axaml.cs",
               "DocumentMoniker": "D:\\VS prodjects\\\u041C\u0443\u0445\u0438\u043D\u0430\\MasterPaul\\MasterPaul\\Views\\CalculationMaterialView.axaml.cs",
               "RelativeDocumentMoniker": "MasterPaul\\Views\\CalculationMaterialView.axaml.cs",
@@ -80,7 +112,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "MasterPaul.csproj",
               "DocumentMoniker": "D:\\VS prodjects\\\u041C\u0443\u0445\u0438\u043D\u0430\\MasterPaul\\MasterPaul\\MasterPaul.csproj",
               "RelativeDocumentMoniker": "MasterPaul\\MasterPaul.csproj",
@@ -88,11 +120,12 @@
               "RelativeToolTip": "MasterPaul\\MasterPaul.csproj",
               "ViewState": "AQIAABcAAAAAAAAAAAAuwAsAAAAoAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-03-05T14:17:45.166Z"
+              "WhenOpened": "2025-03-05T14:17:45.166Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "CalculationMaterialView.axaml",
               "DocumentMoniker": "D:\\VS prodjects\\\u041C\u0443\u0445\u0438\u043D\u0430\\MasterPaul\\MasterPaul\\Views\\CalculationMaterialView.axaml",
               "RelativeDocumentMoniker": "MasterPaul\\Views\\CalculationMaterialView.axaml",
@@ -109,7 +142,7 @@
               "RelativeDocumentMoniker": "MasterPaul\\ViewModels\\CalculationMaterialVM.cs",
               "ToolTip": "D:\\VS prodjects\\\u041C\u0443\u0445\u0438\u043D\u0430\\MasterPaul\\MasterPaul\\ViewModels\\CalculationMaterialVM.cs",
               "RelativeToolTip": "MasterPaul\\ViewModels\\CalculationMaterialVM.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAACEAAAAJAAAA",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAAwAAAAuAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-05T12:10:02.393Z",
               "EditorCaption": ""

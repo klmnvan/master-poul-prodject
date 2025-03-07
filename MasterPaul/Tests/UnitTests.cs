@@ -5,6 +5,7 @@ namespace Tests
     [TestClass]
     public class UnitTests
     {
+        //Негативные
         [TestMethod]
         public void GetQuantityForProduct_NonExistentProductType()
         {
@@ -50,7 +51,7 @@ namespace Tests
             Assert.AreEqual(actualResult, correctResult);
         }
 
-        //���������� 5 ++
+        //Позитивные
         [TestMethod]
         public void GetQuantityForProduct_MaterialType1ProductType1_CorrectResult()
         {
